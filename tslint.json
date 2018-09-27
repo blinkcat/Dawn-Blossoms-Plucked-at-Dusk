@@ -1,6 +1,6 @@
 {
   "defaultSeverity": "error",
-  "extends": ["tslint:recommended"],
+  "extends": ["tslint:recommended", "tslint-react"],
   "jsRules": {},
   "rules": {
     "max-line-length": [true, 120],
@@ -31,7 +31,7 @@
     // "no-new": 0,
     // "no-plusplus": 0,
     "no-constant-condition": false,
-    "quotemark": [true, "single", "avoid-template"],
+    "quotemark": [true, "single", "avoid-template", "jsx-double"],
     // "no-undef": 2,
     "align": false,
     "no-unused-variable": true,
