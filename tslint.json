@@ -12,7 +12,7 @@
     "interface-name": false,
     "ordered-imports": false,
     "no-var-requires": false,
-    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "trailing-comma": false,
     "object-literal-sort-keys": false,
     "member-access": [true, "no-public"],
     "no-bitwise": false,
@@ -37,7 +37,6 @@
     "no-unused-variable": true,
     "no-var-keyword": true,
     //"strict": 0,
-    "no-extra-semi": true,
     "semicolon": [true, "always"],
     "no-console": true,
     "no-conditional-assignment": false,
@@ -61,13 +60,6 @@
     "no-invalid-this": false,
     "no-empty": false,
     "arrow-parens": false,
-    "brace-style": [
-      true,
-      "1tbs",
-      {
-        "allowSingleLine": true
-      }
-    ],
     "indent": [true, "spaces", 2],
     // "no-multi-str": 2,
     "dot-location": [2, "property"],
@@ -99,13 +91,6 @@
       }
     ],
     // "no-spaced-func": 2,
-    "array-bracket-spacing": [
-      true,
-      "never",
-      {
-        "arraysInArrays": true
-      }
-    ],
     "no-trailing-whitespace": [true, "ignore-jsdoc", "ignore-template-strings", "ignore-comments"],
     "whitespace": true,
     // "yoda": [
