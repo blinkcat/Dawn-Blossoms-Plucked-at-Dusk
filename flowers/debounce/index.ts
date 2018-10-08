@@ -10,7 +10,7 @@
  * @see https://css-tricks.com/debouncing-throttling-explained-examples/
  * @returns
  */
-export default function debounce(fn: () => any, threshold: number, immediate = false) {
+export function debounce(fn: () => any, threshold: number, immediate = false) {
   let timeout: any;
   let result: any;
   let args: IArguments;
@@ -23,7 +23,7 @@ export default function debounce(fn: () => any, threshold: number, immediate = f
     timeout = null;
   }
 
-  return function() {
+  return function(this: any) {
     args = arguments;
     ctx = this;
     if (timeout) {

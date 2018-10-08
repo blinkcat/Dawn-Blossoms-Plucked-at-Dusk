@@ -11,11 +11,7 @@
  * @see http://www.cnblogs.com/fsjohnhuang/p/4147810.html?utm_source=tuicool&utm_medium=referral
  * @returns
  */
-export default function throttle(
-  fn: () => any,
-  threshold: number,
-  option = { leading: false, trailing: false }
-) {
+export function throttle(fn: () => any, threshold: number, option = { leading: false, trailing: false }) {
   let timeout: any;
   let previous = 0;
   let result: any;
@@ -29,7 +25,7 @@ export default function throttle(
     result = fn.apply(ctx, args);
   }
 
-  return function() {
+  return function(this: any) {
     ctx = this;
     args = arguments;
     const now = Date.now();
