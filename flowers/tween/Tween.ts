@@ -3,10 +3,6 @@ import { now } from './now';
 import { TweenGroup } from './TweenGroup';
 
 type EasingFunction = (k: number) => number;
-type AnyFunction = (...args: any[]) => any;
-interface AnyObject {
-  [index: string]: any;
-}
 
 export class Tween {
   private static _id = 0;
