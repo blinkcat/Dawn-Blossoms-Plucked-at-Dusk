@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>scroller</title>
+	<style>
+		#container {
+			border: 1px solid black;
+			overflow: hidden;
+			position: absolute;
+		}
+
+		#content {
+			width: 2500px;
+			-webkit-transform-origin: left top;
+			transform-origin: left top;
+			user-select: none;
+		}
+
+		.cell {
+			box-sizing: border-box;
+			width: 50px;
+			height: 50px;
+			line-height: 50px;
+			border: 1px solid #ccc;
+			text-align: center;
+			display: inline-block;
+		}
+
+		.cell.dark {
+			background: #ccc
+		}
+
+	</style>
+	<!-- <script src="http://wechatfe.github.io/vconsole/lib/vconsole.min.js?v=3.2.0"></script>
+	<script>
+		// init vConsole
+		var vConsole = new VConsole();
+	</script> -->
+</head>
+
+<body>
+	<div id="container">
+		<div id="content"></div>
+	</div>
+	<div id="list"></div>
+	<script src="./index.ts"></script>
+</body>
+
+</html>

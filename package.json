@@ -6,15 +6,17 @@
   "dependencies": {
     "hoist-non-react-statics": "^3.0.1",
     "lodash": "^4.17.11",
+    "lodash.toarray": "^4.4.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "recompose": "0.30.0"
   },
   "devDependencies": {
+    "@types/hoist-non-react-statics": "^3.0.1",
+    "@types/lodash": "^4.14.116",
+    "@types/lodash.toarray": "^4.4.4",
     "@types/react": "^16.4.14",
     "@types/react-dom": "^16.0.7",
-    "@types/lodash": "^4.14.116",
-    "@types/hoist-non-react-statics": "^3.0.1",
     "@types/recompose": "^0.26.5",
     "parcel": "^1.9.7",
     "parcel-bundler": "^1.9.7",
@@ -27,7 +29,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "simple-vue": "parcel flowers/simpleVue/index.html",
     "react-types": "parcel flowers/react-types/index.html",
-    "tween": "parcel flowers/tween/index.html"
+    "tween": "parcel flowers/tween/index.html",
+    "scroller": "parcel flowers/scroller/index.html"
   },
   "repository": {
     "type": "git",

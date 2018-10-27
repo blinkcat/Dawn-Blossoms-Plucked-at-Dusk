@@ -38,7 +38,7 @@
     "no-var-keyword": true,
     //"strict": 0,
     "semicolon": [true, "always"],
-    "no-console": true,
+    // "no-console": true,
     "no-conditional-assignment": false,
     "no-debugger": true,
     // "no-eq-null": 0,
