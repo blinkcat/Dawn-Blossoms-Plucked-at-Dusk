@@ -27,10 +27,7 @@
     "typescript": "^3.0.3"
   },
   "scripts": {
-    "simple-vue": "parcel drafts/simpleVue/index.html",
-    "react-types": "parcel drafts/react-types/index.html",
-    "tween": "parcel drafts/tween/index.html",
-    "scroller": "parcel drafts/scroller/index.html"
+    "start": "./scripts/start.sh"
   },
   "repository": {
     "type": "git",
