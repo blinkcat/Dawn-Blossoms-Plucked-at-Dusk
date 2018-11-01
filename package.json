@@ -1,7 +1,8 @@
 {
   "name": "dawn-blossoms-plucked-at-dusk",
+  "private": true,
   "version": "0.1.0",
-  "description": "methods",
+  "description": "drafts",
   "main": "./src/index.js",
   "dependencies": {
     "hoist-non-react-statics": "^3.0.1",
@@ -26,11 +27,10 @@
     "typescript": "^3.0.3"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "simple-vue": "parcel flowers/simpleVue/index.html",
-    "react-types": "parcel flowers/react-types/index.html",
-    "tween": "parcel flowers/tween/index.html",
-    "scroller": "parcel flowers/scroller/index.html"
+    "simple-vue": "parcel drafts/simpleVue/index.html",
+    "react-types": "parcel drafts/react-types/index.html",
+    "tween": "parcel drafts/tween/index.html",
+    "scroller": "parcel drafts/scroller/index.html"
   },
   "repository": {
     "type": "git",
